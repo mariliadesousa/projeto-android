@@ -55,6 +55,7 @@ header{
 
 header > h1{
     font-family: var(--font-destaque);
+    font-weight: normal;
     font-size: 3em;
     color: white;
     margin-bottom: 20px;
@@ -70,6 +71,7 @@ header > p{
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
+    margin-bottom: 30px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.534);
 }
 
@@ -120,11 +122,14 @@ main img.pequena{
 
 main h1{
     font-family: var(--font-android);
+    font-weight: normal;
+    font-size: 1.8em;
     color: var(--verde);
 }
 
 main h2{
     font-family: var(--font-android);
+    font-weight: normal;
     font-size: 1.3em;
     color: var(--verde);
 }
@@ -151,6 +156,24 @@ main a{
 main a:hover{
     text-decoration: underline;
     color: var(--verdeclaro);
+}
+
+/*=======================================================*/
+
+div.video{
+    background-color: var(--verdeescuro);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 /*=======================================================*/
