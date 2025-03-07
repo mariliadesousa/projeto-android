@@ -40,6 +40,10 @@ body{
     font-family: var(--font-padrao);
 }
 
+a.externo::after{
+    content: '\00A0\1F517';
+}
+
 /*=======================================================*/
 
 header{
@@ -147,6 +151,37 @@ main a{
 main a:hover{
     text-decoration: underline;
     color: var(--verdeclaro);
+}
+
+/*=======================================================*/
+
+aside{
+    background-color: #b3db7c;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.158);
+}
+
+aside > h3{
+    background-color: var(--verdeescuro);
+    color: white;
+    padding: 15px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul{
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+aside > a{
+    color: #648d2a;
+}
+
+aside a:hover{
+    color: #537A1B;
 }
 
 /*=======================================================*/
