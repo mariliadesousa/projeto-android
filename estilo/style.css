@@ -60,6 +60,9 @@ nav{
 
 main{
     background-color: white;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
 }
 
 main > article > h1{
