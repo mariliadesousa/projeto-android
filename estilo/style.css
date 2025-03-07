@@ -33,12 +33,14 @@
     padding: 0px;
 }
 
+/*=======================================================*/
 
 body {
     background-color: var(--verdeclaro);
     font-family: var(--font-padrao);
 }
 
+/*=======================================================*/
 
 header{
     background-color: var(--verde);
@@ -57,12 +59,28 @@ nav{
     background-color: var(--verdeescuro);
 }
 
+/*=======================================================*/
 
 main{
     background-color: white;
     margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
     min-width: 300px;
     max-width: 1000px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.596);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 main > article > h1{
@@ -75,6 +93,7 @@ main > article > h2{
     color: var(--verde);
 }
 
+/*=======================================================*/
 
 footer{
     background-color: var(--verdeescuro);
