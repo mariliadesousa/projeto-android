@@ -35,28 +35,59 @@
 
 /*=======================================================*/
 
-body {
-    background-color: var(--verdeclaro);
+body{
+    background-color: #c0ceac;
     font-family: var(--font-padrao);
 }
 
 /*=======================================================*/
 
 header{
-    background-color: var(--verde);
+    background-color: var(--verdeescuro);
+    min-height: 140px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 header > h1{
     font-family: var(--font-destaque);
+    font-size: 3em;
     color: white;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.534);
 }
 
-header > p{
+header > p{ 
+    font-family: var(--font-padrao);
+    font-size: 1.2em;
     color: white;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.534);
 }
 
 nav{
     background-color: var(--verdeescuro);
+    text-align: left;
+    margin-top: 50px;
+    padding-bottom: 9px;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.603);
+}
+
+nav > a{
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    background-color: var(--verdeclaro);
+    color: var(--verdeescuro);
 }
 
 /*=======================================================*/
@@ -78,19 +109,44 @@ main img{
 }
 
 main img.pequena{
-    width: 50%;
+    max-width: 300px;
     display: block;
     margin: auto;
 }
 
-main > article > h1{
+main h1{
     font-family: var(--font-android);
     color: var(--verde);
 }
 
-main > article > h2{
+main h2{
     font-family: var(--font-android);
+    font-size: 1.3em;
     color: var(--verde);
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main strong{
+    color: var(--verdeescuro);
+    font-weight: bold;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--verde);
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: var(--verdeclaro);
 }
 
 /*=======================================================*/
